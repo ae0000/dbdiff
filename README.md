@@ -6,17 +6,18 @@ Version 0.2
 
 
 
-DBDiff takes two database structures and works out the differences between the 
+DBDiff takes two (MySQL) database structures and works out the differences between the 
 two. It then uses these diffs to create a list of SQL updates you would need to 
 make to align them.
 
 Notes:
 ------
-The following things are not yet handled
+The following things are not yet handled.
 
 - [ ] triggers
 - [ ] stored procedures
 - [ ] views
+- [ ] other dbs besides mysql?
 
 Comments are a little dicey as well.... 
 
